@@ -1,0 +1,720 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "TrailBall Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"Mac",
+				"Debug",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"Mac",
+				"Debug",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TrailBall Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"Mac",
+				"Debug",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"Mac",
+				"DebugGame",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"Mac",
+				"DebugGame",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TrailBall Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"Mac",
+				"DebugGame",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"Mac",
+				"Development",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"Mac",
+				"Development",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TrailBall Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"Mac",
+				"Development",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"Mac",
+				"Shipping",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"Mac",
+				"Shipping",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TrailBall Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"Mac",
+				"Shipping",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"Mac",
+				"Test",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"Mac",
+				"Test",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TrailBall Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"Mac",
+				"Test",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"IOS",
+				"Debug",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"IOS",
+				"Debug",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TrailBall IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"IOS",
+				"Debug",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"IOS",
+				"DebugGame",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"IOS",
+				"DebugGame",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TrailBall IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"IOS",
+				"DebugGame",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"IOS",
+				"Development",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"IOS",
+				"Development",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TrailBall IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"IOS",
+				"Development",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"IOS",
+				"Shipping",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"IOS",
+				"Shipping",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TrailBall IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"IOS",
+				"Shipping",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"IOS",
+				"Test",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"IOS",
+				"Test",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TrailBall IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBall IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBall",
+				"IOS",
+				"Test",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBallEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBallEditor",
+				"Mac",
+				"Debug",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBallEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBallEditor",
+				"Mac",
+				"Debug",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TrailBallEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBallEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBallEditor",
+				"Mac",
+				"Debug",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBallEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBallEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBallEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBallEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TrailBallEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBallEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBallEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBallEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBallEditor",
+				"Mac",
+				"Development",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBallEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBallEditor",
+				"Mac",
+				"Development",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"TrailBallEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		},
+		{
+			"label": "TrailBallEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"TrailBallEditor",
+				"Mac",
+				"Development",
+				"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/TrailBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/EpicGames/UE_4.27"
+			}
+		}
+	]
+}

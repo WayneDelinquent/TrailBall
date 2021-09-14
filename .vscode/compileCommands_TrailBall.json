@@ -1,0 +1,27 @@
+[
+	{
+		"file": "/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/Source/TrailBall/TrailBall.Build.cs",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @\"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/.vscode/compileCommands_TrailBall/TrailBall.191.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.27/Engine/Source"
+	},
+	{
+		"file": "/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/Source/TrailBall/TrailBall.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @\"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/.vscode/compileCommands_TrailBall/TrailBall.191.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.27/Engine/Source"
+	},
+	{
+		"file": "/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/Source/TrailBall/TrailBall.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @\"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/.vscode/compileCommands_TrailBall/TrailBall.191.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.27/Engine/Source"
+	},
+	{
+		"file": "/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/Source/TrailBall/TrailBallGameModeBase.cpp",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @\"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/.vscode/compileCommands_TrailBall/TrailBall.191.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.27/Engine/Source"
+	},
+	{
+		"file": "/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/Source/TrailBall/TrailBallGameModeBase.h",
+		"command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ @\"/Users/waynesteedman/Development/Delinquent/Unreal/TrailBall/.vscode/compileCommands_TrailBall/TrailBall.191.rsp\"",
+		"directory": "/Users/Shared/EpicGames/UE_4.27/Engine/Source"
+	}
+]
